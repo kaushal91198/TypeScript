@@ -1,0 +1,24 @@
+// typescript is strongly typed language
+
+//javascript is Weekly typed language
+
+// When we have to define the type of variable in ts 
+
+// it supports such as classes, interfaces, inheritance and generics
+
+// When u work with large scale application javascript doesn't meet the  oops concepts sever side communication
+// that's why we are using in ts
+
+//typescript complies the code
+
+// it provides error checking at complilation time
+// it is highlighted before scripts run
+
+
+// tsc -> typescript complier
+
+console.log is function which writes anything in browser's console
+
+
+Type Annotations
+-Typescript includes all the primitives types of javascript -number, string and boolean
