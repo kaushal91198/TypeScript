@@ -9,7 +9,9 @@ class B implements A {
 }
 
 class C implements A {
-
+    display() {
+        console.log("B");
+    }
     //  Throws error:  Class 'C' incorrectly
     // implements interface 'A'.
     //  Property 'display' is missing in type
@@ -30,4 +32,7 @@ class Rectangle implements Shape {
         return this.width123 * this.height123;
     }
 }
+const  myRect = new Rectangle(35,23)
 
+
+console.log(myRect.getArea())

@@ -14,5 +14,4 @@ class message {
     }
 }
 const obj = new message()
-
-console.log(obj.display("kaushal"))
+obj.display("kaushal")

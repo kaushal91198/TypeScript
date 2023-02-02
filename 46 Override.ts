@@ -20,8 +20,14 @@ interface Shape {
       super(width, width);
     }
   
+    //override
     // this toString replaces the toString from Rectangle
-    public override toString(): string {
-      return `Square[width=${this.width}]`;
+    public toString(): string {
+      return `Square[width=${this.width}]`
     }
   }
+
+
+  const mySqu = new Square(12)
+
+  console.log(mySqu.toString())
